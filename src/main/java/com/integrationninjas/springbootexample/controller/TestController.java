@@ -12,7 +12,7 @@ public class TestController {
 	@GetMapping
 	public Object hello() {
 		Map<String, String> object = new HashMap<>();
-		object.put("name", "djinislav");
+		object.put("name", "djinislavv");
 		object.put("email", "denislavdanov@gmail.com");
 		return object;
 	}
